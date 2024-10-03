@@ -40,6 +40,7 @@ nav:
   - About: 
     - About me: About/about.md
     - Residency: About/residency.md
+  - Thesis: Thesis/thesis.md
   - Blog:
     - blog/index.md
     
