@@ -7,8 +7,8 @@ You can access the R Studio server using the following link:
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <span id="status-indicator" style="display: inline-block; width: 10px; height: 10px; background-color: grey; border-radius: 50%; margin-right: 8px;"></span>
-  <span id="status-text" style="font-family: Arial, sans-serif; color: grey;">Checking server status...</span>
+  <span id="status-indicator" style="display: inline-block; width: 10px; height: 10px; background-color: #4CAF50; border-radius: 50%; margin-right: 8px;"></span>
+  <span id="status-text" style="font-family: Arial, sans-serif; color: #4CAF50;">Server is online</span>
 </div>
 
 The server is set up to assist with statistical analyses on medical data. If you need help or further information, feel free to contact me via email or LinkedIn.
@@ -25,32 +25,3 @@ If you'd like to request the ID and password for the R Studio server, please fil
             style="border-radius: 15px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
     </iframe>
 </div>
-
-<script>
-  function checkServerStatus() {
-    // Ping the Nginx server to check if it's online using no-cors
-    fetch('http://134.209.84.93/', {
-        method: 'GET',
-        mode: 'no-cors'  // Allow the request without CORS restrictions
-      })
-      .then(() => {
-        // Even without response due to no-cors, assume Nginx is online
-        document.getElementById('status-indicator').style.backgroundColor = '#4CAF50';
-        document.getElementById('status-text').innerText = 'Nginx server is online';
-        document.getElementById('status-text').style.color = '#4CAF50';
-      })
-      .catch(() => {
-        // If the request fails, the server is offline
-        document.getElementById('status-indicator').style.backgroundColor = 'red';
-        document.getElementById('status-text').innerText = 'Nginx server is offline';
-        document.getElementById('status-text').style.color = 'red';
-      });
-  }
-
-  // Check server status every 30 seconds
-  setInterval(checkServerStatus, 30000);
-
-  // Initial check when the page loads
-  checkServerStatus();
-</script>
-
