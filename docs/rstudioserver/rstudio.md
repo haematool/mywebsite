@@ -28,28 +28,21 @@ If you'd like to request the ID and password for the R Studio server, please fil
 
 <script>
   function checkServerStatus() {
-    // Ping the R Studio server with manual redirect handling
-    fetch('http://134.209.84.93:8787/', {
+    // Ping the server to check if it's online
+    fetch('http://134.209.84.93/', {
         method: 'GET',
-        redirect: 'manual'  // Don't follow redirects to the login page
+        mode: 'no-cors'  // This allows the request without CORS issues
       })
       .then(response => {
-        if (response.status === 302 || response.status === 200) {
-          // Server is online, update the status to green
-          document.getElementById('status-indicator').style.backgroundColor = '#4CAF50';
-          document.getElementById('status-text').innerText = 'Server is online';
-          document.getElementById('status-text').style.color = '#4CAF50';
-        } else {
-          // Server is unreachable or status is different
-          document.getElementById('status-indicator').style.backgroundColor = 'red';
-          document.getElementById('status-text').innerText = 'Server is offline';
-          document.getElementById('status-text').style.color = 'red';
-        }
+        // Even without response due to no-cors, if there's no error, is online
+        document.getElementById('status-indicator').style.backgroundColor = '#4CAF50';
+        document.getElementById('status-text').innerText = 'server is online';
+        document.getElementById('status-text').style.color = '#4CAF50';
       })
       .catch(() => {
         // If the request fails, the server is offline
         document.getElementById('status-indicator').style.backgroundColor = 'red';
-        document.getElementById('status-text').innerText = 'Server is offline';
+        document.getElementById('status-text').innerText = 'server is offline';
         document.getElementById('status-text').style.color = 'red';
       });
   }
@@ -60,3 +53,4 @@ If you'd like to request the ID and password for the R Studio server, please fil
   // Initial check when the page loads
   checkServerStatus();
 </script>
+
