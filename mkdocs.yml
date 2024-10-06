@@ -34,10 +34,6 @@ plugins:
 
 nav:
   - Home: index.md
-  - About: 
-    - About me: about/about.md
-    - Residency: about/residency.md
-  - Thesis: thesis/thesis.md
   - Blog:
     - blog/index.md
 repo_url: https://github.com/haematool/haematool
