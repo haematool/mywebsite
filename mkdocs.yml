@@ -31,7 +31,6 @@ plugins:
     - search
     - tags
     - blog
-    - social
 
 nav:
   - Home: index.md
