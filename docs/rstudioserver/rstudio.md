@@ -28,23 +28,16 @@ If you'd like to request the ID and password for the R Studio server, please fil
 
 <script>
   function checkServerStatus() {
-    // Ping the Nginx server to check if it's online
+    // Ping the Nginx server to check if it's online using no-cors
     fetch('http://134.209.84.93/', {
         method: 'GET',
-        mode: 'cors'  // Allow CORS (Cross-Origin Resource Sharing)
+        mode: 'no-cors'  // Allow the request without CORS restrictions
       })
-      .then(response => {
-        if (response.ok) {
-          // Server is online, update the status to green
-          document.getElementById('status-indicator').style.backgroundColor = '#4CAF50';
-          document.getElementById('status-text').innerText = 'Nginx server is online';
-          document.getElementById('status-text').style.color = '#4CAF50';
-        } else {
-          // Server is unreachable, update the status to red
-          document.getElementById('status-indicator').style.backgroundColor = 'red';
-          document.getElementById('status-text').innerText = 'Nginx server is offline';
-          document.getElementById('status-text').style.color = 'red';
-        }
+      .then(() => {
+        // Even without response due to no-cors, assume Nginx is online
+        document.getElementById('status-indicator').style.backgroundColor = '#4CAF50';
+        document.getElementById('status-text').innerText = 'Nginx server is online';
+        document.getElementById('status-text').style.color = '#4CAF50';
       })
       .catch(() => {
         // If the request fails, the server is offline
