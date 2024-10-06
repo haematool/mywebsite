@@ -10,7 +10,6 @@
   <li>Deep Learning for Blood Cell Recognition</li>
   <li>Medical Data Analysis Platform: <a href="http://134.209.84.93:8787">R Studio Server</a></li>
 </ul>
-
 ---
 
 ### <h3 style="text-align: center;"><i class="fas fa-code"></i> Languages and Tools</h3>
