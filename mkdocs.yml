@@ -31,7 +31,6 @@ plugins:
     - search
     - tags
     - blog
-    - social
 
 nav:
   - Home: index.md
@@ -48,11 +47,6 @@ extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://fr.linkedin.com/in/emmanuel-sleiman-0354272b4
-    - icon: fontawesome/brands/discord
-      link: https://discord.gg/nuScQTzb
-    - icon: fontawesome/solid/envelope
-      link: mailto:emmanuelsleiman@gmail.com
-
 
 markdown_extensions: 
   - attr_list
