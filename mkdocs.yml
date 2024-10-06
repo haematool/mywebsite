@@ -2,7 +2,7 @@ site_name: Emmanuel Sleiman
 site_url: https://github.com/haematool/haematool
 theme:
   name: material
-  language : fr
+  language : en
   icon:
     logo: material/library
   
@@ -34,6 +34,10 @@ plugins:
 
 nav:
   - Home: index.md
+  - About me: about.md
+  - R Studio Server: rstudioserver/rstudio.md
+  - Machine Learning: machinelearning/mrdpraidict.md
+  - Deep Learning: deeplearning/sicklecellvision.md
   - Blog:
     - blog/index.md
 repo_url: https://github.com/haematool/haematool
