@@ -28,21 +28,28 @@ If you'd like to request the ID and password for the R Studio server, please fil
 
 <script>
   function checkServerStatus() {
-    // Ping the server to check if it's online
+    // Ping the Nginx server to check if it's online
     fetch('http://134.209.84.93/', {
         method: 'GET',
-        mode: 'no-cors'  // This allows the request without CORS issues
+        mode: 'cors'  // Allow CORS (Cross-Origin Resource Sharing)
       })
       .then(response => {
-        // Even without response due to no-cors, if there's no error, is online
-        document.getElementById('status-indicator').style.backgroundColor = '#4CAF50';
-        document.getElementById('status-text').innerText = 'server is online';
-        document.getElementById('status-text').style.color = '#4CAF50';
+        if (response.ok) {
+          // Server is online, update the status to green
+          document.getElementById('status-indicator').style.backgroundColor = '#4CAF50';
+          document.getElementById('status-text').innerText = 'Nginx server is online';
+          document.getElementById('status-text').style.color = '#4CAF50';
+        } else {
+          // Server is unreachable, update the status to red
+          document.getElementById('status-indicator').style.backgroundColor = 'red';
+          document.getElementById('status-text').innerText = 'Nginx server is offline';
+          document.getElementById('status-text').style.color = 'red';
+        }
       })
       .catch(() => {
         // If the request fails, the server is offline
         document.getElementById('status-indicator').style.backgroundColor = 'red';
-        document.getElementById('status-text').innerText = 'server is offline';
+        document.getElementById('status-text').innerText = 'Nginx server is offline';
         document.getElementById('status-text').style.color = 'red';
       });
   }
