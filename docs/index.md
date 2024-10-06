@@ -7,10 +7,6 @@
 - 🏥 Working on AI-driven solutions to improve diagnostic tools in hematology.
 - 💻 Building projects using **Python**, **Scikit-Learn**, and **PyTorch**.
   
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=haematool&show_icons=true&theme=radical" alt="GitHub Stats"/>
-</p>
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
