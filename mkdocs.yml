@@ -1,22 +1,18 @@
-site_name: My Docs
-site_url: https://mydomain.org/mysite
+site_name: Emmanuel Sleiman
+site_url: https://github.com/haematool/haematool
 theme:
   name: material
-
-  palette: 
-
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+  language : fr
+  icon:
+    logo: material/library
   
+  palette: 
+    scheme: slate
+    primary : blue grey
+    accent : amber
+
+  
+
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -27,6 +23,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.footer
     - search.suggest
     - search.share
   
@@ -38,9 +35,15 @@ plugins:
 nav:
   - Home: index.md
   - About: 
-    - About me: About/about.md
-    - Residency: About/residency.md
-  - Thesis: Thesis/thesis.md
+    - About me: about/about.md
+    - Residency: about/residency.md
+  - Thesis: thesis/thesis.md
   - Blog:
     - blog/index.md
-    
+repo_url: https://github.com/haematool/haematool
+repo_name: Haematool
+extra:
+  social:
+   - icon: fontawesome/brands/linkedin
+     link: https://fr.linkedin.com/in/emmanuel-sleiman-0354272b4
+copyright : Emmanuel Sleiman - 2024 Copyright
