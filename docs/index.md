@@ -1,18 +1,20 @@
-<h1 align="center">Hi 👋, I'm Emmanuel Sleiman</h1>
-<h3 align="center">Medical student specializing in hematology, with a passion for AI applications in healthcare.</h3>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<h1 style="text-align: center;">Hi 👋, I'm Emmanuel Sleiman</h1>
+<h3 style="text-align: center;">Medical student specializing in hematology, with a passion for AI applications in healthcare.</h3>
 
 ---
 
-### <h3 align="center"><i class="fas fa-briefcase"></i> Current Projects</h3>
-<ul align="center" style="text-align: justify;">
+### <h3 style="text-align: center;"><i class="fas fa-briefcase"></i> Current Projects</h3>
+<ul style="text-align: center; list-style-type: none;">
   <li>Deep Learning for Blood Cell Recognition</li>
   <li>Medical Data Analysis Platform: <a href="http://134.209.84.93:8787">R Studio Server</a></li>
 </ul>
 
 ---
 
-### <h3 align="center"><i class="fas fa-code"></i> Languages and Tools</h3>
-<p align="center">
+### <h3 style="text-align: center;"><i class="fas fa-code"></i> Languages and Tools</h3>
+<p style="text-align: center;">
   <a href="https://www.python.org" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
   </a> 
