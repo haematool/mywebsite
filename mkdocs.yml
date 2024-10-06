@@ -44,6 +44,6 @@ repo_url: https://github.com/haematool/haematool
 repo_name: Haematool
 extra:
   social:
-   - icon: fontawesome/brands/linkedin
-     link: https://fr.linkedin.com/in/emmanuel-sleiman-0354272b4
+    - icon: fontawesome/brands/linkedin
+      link: https://fr.linkedin.com/in/emmanuel-sleiman-0354272b4
 copyright : Emmanuel Sleiman - 2024 Copyright
