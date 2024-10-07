@@ -53,14 +53,15 @@ If you'd like to request the ID and password for the R Studio server, please fil
 
   <div style="margin-bottom: 15px; display: flex; align-items: center;">
     <i class="fas fa-file-upload" style="font-size: 20px; color: #b0bec5; margin-right: 10px; min-width: 30px; text-align: center;"></i>
-    <label for="file" style="font-size: 16px; font-weight: 500; color: #eceff1; flex: 1;">Upload Dataset:</label>
-    <input type="file" id="file" name="file" required style="flex: 2; padding: 8px; border: 1px solid #546e7a; border-radius: 4px; background-color: #37474f; color: #eceff1; margin-left: 10px;">
+    <label for="file" style="font-size: 16px; font-weight: 500; color: #eceff1; flex: 1;">Upload File (Optional):</label>
+    <input type="file" id="file" name="file" style="flex: 2; padding: 8px; border: 1px solid #546e7a; border-radius: 4px; background-color: #37474f; color: #eceff1; margin-left: 10px;">
   </div>
   
   <div style="text-align: right;">
     <input type="submit" value="Request Access" style="background-color: #455a64; color: white; padding: 10px 16px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; font-weight: 500;">
   </div>
 </form>
+
 
 
 ## III. Documentation
@@ -79,7 +80,7 @@ To access the R Studio server, follow these steps:
    - [R Studio Server](http://134.209.84.93:8787)
 2. You will be directed to the login page (if required).
 
-> **Note:** You must have an account and login credentials to access the server. If you don't have access, [request it here](#support-and-contact).
+> **Note:** You must have an account and login credentials to access the server. If you don't have access, please use the aforementioned request form.
 
 ---
 
