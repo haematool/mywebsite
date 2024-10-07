@@ -26,42 +26,43 @@ You can access the R Studio server using the following link:
 
 If you'd like to request the ID and password for the R Studio server, please fill out the form below:
 
-<form action="https://fabform.io/f/SgfCSO0" method="POST" enctype="multipart/form-data" style="width: 100%; padding: 20px; background-color: #263238; border-radius: 6px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); box-sizing: border-box;">
+<form action="https://fabform.io/f/SgfCSO0" method="POST" enctype="multipart/form-data" style="width: 100%; max-width: 600px; padding: 20px; background-color: #263238; border-radius: 6px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); box-sizing: border-box; margin: auto;">
   
-  <div style="margin-bottom: 15px; display: flex; align-items: center;">
+  <div style="margin-bottom: 15px; display: flex; flex-wrap: wrap; align-items: center;">
     <i class="fas fa-user" style="font-size: 20px; color: #b0bec5; margin-right: 10px; min-width: 30px; text-align: center;"></i>
-    <label for="name" style="font-size: 16px; font-weight: 500; color: #eceff1; flex: 1;">Full Name:</label>
-    <input type="text" id="name" name="name" required style="flex: 2; padding: 8px; border: 1px solid #546e7a; border-radius: 4px; background-color: #37474f; color: #eceff1; margin-left: 10px;">
+    <label for="name" style="font-size: 16px; font-weight: 500; color: #eceff1; flex: 1 1 100%;">Full Name:</label>
+    <input type="text" id="name" name="name" required style="flex: 1 1 100%; padding: 8px; border: 1px solid #546e7a; border-radius: 4px; background-color: #37474f; color: #eceff1; margin-top: 10px;">
   </div>
   
-  <div style="margin-bottom: 15px; display: flex; align-items: center;">
+  <div style="margin-bottom: 15px; display: flex; flex-wrap: wrap; align-items: center;">
     <i class="fas fa-envelope" style="font-size: 20px; color: #b0bec5; margin-right: 10px; min-width: 30px; text-align: center;"></i>
-    <label for="email" style="font-size: 16px; font-weight: 500; color: #eceff1; flex: 1;">Email:</label>
-    <input type="email" id="email" name="email" required style="flex: 2; padding: 8px; border: 1px solid #546e7a; border-radius: 4px; background-color: #37474f; color: #eceff1; margin-left: 10px;">
+    <label for="email" style="font-size: 16px; font-weight: 500; color: #eceff1; flex: 1 1 100%;">Email:</label>
+    <input type="email" id="email" name="email" required style="flex: 1 1 100%; padding: 8px; border: 1px solid #546e7a; border-radius: 4px; background-color: #37474f; color: #eceff1; margin-top: 10px;">
   </div>
 
-  <div style="margin-bottom: 15px; display: flex; align-items: center;">
+  <div style="margin-bottom: 15px; display: flex; flex-wrap: wrap; align-items: center;">
     <i class="fas fa-building" style="font-size: 20px; color: #b0bec5; margin-right: 10px; min-width: 30px; text-align: center;"></i>
-    <label for="institution" style="font-size: 16px; font-weight: 500; color: #eceff1; flex: 1;">Institution/Organization:</label>
-    <input type="text" id="institution" name="institution" required style="flex: 2; padding: 8px; border: 1px solid #546e7a; border-radius: 4px; background-color: #37474f; color: #eceff1; margin-left: 10px;">
+    <label for="institution" style="font-size: 16px; font-weight: 500; color: #eceff1; flex: 1 1 100%;">Institution/Organization:</label>
+    <input type="text" id="institution" name="institution" required style="flex: 1 1 100%; padding: 8px; border: 1px solid #546e7a; border-radius: 4px; background-color: #37474f; color: #eceff1; margin-top: 10px;">
   </div>
   
-  <div style="margin-bottom: 15px; display: flex; align-items: flex-start;">
+  <div style="margin-bottom: 15px; display: flex; flex-wrap: wrap; align-items: flex-start;">
     <i class="fas fa-comment-alt" style="font-size: 20px; color: #b0bec5; margin-right: 10px; min-width: 30px; text-align: center;"></i>
-    <label for="reason" style="font-size: 16px; font-weight: 500; color: #eceff1; flex: 1;">Short Description:</label>
-    <textarea id="reason" name="reason" required style="flex: 2; padding: 8px; border: 1px solid #546e7a; border-radius: 4px; background-color: #37474f; color: #eceff1; margin-left: 10px; height: 100px;"></textarea>
+    <label for="reason" style="font-size: 16px; font-weight: 500; color: #eceff1; flex: 1 1 100%;">Short Description:</label>
+    <textarea id="reason" name="reason" required style="flex: 1 1 100%; padding: 8px; border: 1px solid #546e7a; border-radius: 4px; background-color: #37474f; color: #eceff1; margin-top: 10px; height: 100px;"></textarea>
   </div>
 
-  <div style="margin-bottom: 15px; display: flex; align-items: center;">
+  <div style="margin-bottom: 15px; display: flex; flex-wrap: wrap; align-items: center;">
     <i class="fas fa-file-upload" style="font-size: 20px; color: #b0bec5; margin-right: 10px; min-width: 30px; text-align: center;"></i>
-    <label for="file" style="font-size: 16px; font-weight: 500; color: #eceff1; flex: 1;">Upload File (Optional):</label>
-    <input type="file" id="file" name="file" style="flex: 2; padding: 8px; border: 1px solid #546e7a; border-radius: 4px; background-color: #37474f; color: #eceff1; margin-left: 10px;">
+    <label for="file" style="font-size: 16px; font-weight: 500; color: #eceff1; flex: 1 1 100%;">Upload File (Optional):</label>
+    <input type="file" id="file" name="file" style="flex: 1 1 100%; padding: 8px; border: 1px solid #546e7a; border-radius: 4px; background-color: #37474f; color: #eceff1; margin-top: 10px;">
   </div>
   
   <div style="text-align: right;">
     <input type="submit" value="Request Access" style="background-color: #455a64; color: white; padding: 10px 16px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; font-weight: 500;">
   </div>
 </form>
+
 
 ---
 
