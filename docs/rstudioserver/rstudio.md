@@ -26,7 +26,7 @@ If you'd like to request the ID and password for the R Studio server, please fil
 <div style="width: 100%; max-width: 700px; margin: 20px auto; padding: 20px; background-color: #f9f9f9; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd2rWo541S8NnbbWnRoslqktEKN7Tu3F5P7-Ax5a_skCvip9A/viewform?embedded=true" 
             width="100%" 
-            height="500" 
+            height="300" 
             frameborder="0" 
             style="border-radius: 15px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
     </iframe>
