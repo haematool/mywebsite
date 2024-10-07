@@ -166,3 +166,4 @@ If you need access to the server or are encountering issues, feel free to contac
 ---
 
 This concludes the guide to using the R Studio server. We hope this document helps you get the most out of the platform!
+

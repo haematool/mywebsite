@@ -10,10 +10,11 @@
   <li>Deep Learning for Blood Cell Recognition</li>
   <li>Medical Data Analysis Platform: <a href="http://134.209.84.93:8787">R Studio Server</a></li>
 </ul>
+
 ---
 
 ### <h3 style="text-align: center;"><i class="fas fa-code"></i> Languages and Tools</h3>
-<p style="text-align: center;">
+<div style="text-align: center;">
   <a href="https://www.python.org" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
   </a> 
@@ -32,7 +33,18 @@
   <a href="https://www.r-project.org/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/r-project/r-project-icon.svg" alt="R" width="40" height="40"/>
   </a>
-    <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
+  <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" alt="pytorch" width="40" height="40"/> 
   </a>
-</p>
+</div>
+
+---
+
+### <h3 style="text-align: center;"><i class="fas fa-calculator"></i> Formula of the Week</h3>
+<p style="text-align: center; font-size: 18px;">The Cauchy-Schwarz inequality is one of the most important inequalities in mathematics and can be stated as:</p>
+
+\begin{equation}
+  \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+\end{equation}
+
+

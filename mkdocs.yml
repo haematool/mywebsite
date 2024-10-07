@@ -47,9 +47,19 @@ extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://fr.linkedin.com/in/emmanuel-sleiman-0354272b4
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/nuScQTzb
+    - icon: fontawesome/solid/envelope
+      link: mailto:emmanuelsleiman@gmail.com 
 
-markdown_extensions: 
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true 
   - attr_list
   - md_in_html
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 copyright : Copyrights - Emmanuel Sleiman - 2024 
