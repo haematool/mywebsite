@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+  - toc
+---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 <h1 style="text-align: center;">Hi 👋, I'm Emmanuel Sleiman</h1>
@@ -38,13 +43,28 @@
   </a>
 </div>
 
+<div class="grid cards" markdown>
+
+- <i class="fab fa-python"></i> **Python** for processing
+- <i class="fab fa-git-alt"></i> **Git** for version control and collaboration
+- <i class="fab fa-linux"></i> **Linux** for server environment setup
+- <i class="fab fa-markdown"></i> **Markdown** for writing
+- <i class="fas fa-laptop-code"></i> **CoCalc** for collaborative computation
+- <i class="fas fa-book-open"></i> **Jupyter** for interactive notebooks
+
+</div>
+
+
 ---
 
 ### <h3 style="text-align: center;"><i class="fas fa-calculator"></i> Formula of the Week</h3>
-<p style="text-align: center; font-size: 18px;">The Cauchy-Schwarz inequality is one of the most important inequalities in mathematics and can be stated as:</p>
+<p style="text-align: center; font-size: 18px;"></p>
+
+**The Cauchy-Schwarz inequality[^1] :**
 
 \begin{equation}
   \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 \end{equation}
 
 
+[^1]: This inequality is crucial in proving many other mathematical results and is widely used in fields like functional analysis, probability theory, and quantum mechanics.

@@ -5,6 +5,7 @@ theme:
   language : en
   icon:
     logo: material/library
+    font: true
   
   palette: 
     scheme: slate
@@ -26,6 +27,7 @@ theme:
     - navigation.footer
     - search.suggest
     - search.share
+    - content.footnote.tooltips
   
 plugins:
     - search
@@ -57,6 +59,7 @@ markdown_extensions:
       generic: true 
   - attr_list
   - md_in_html
+  - footnotes
 
 extra_javascript:
   - javascripts/mathjax.js

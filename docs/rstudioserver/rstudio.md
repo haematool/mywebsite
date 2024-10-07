@@ -1,4 +1,3 @@
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 # R Studio Server v0.1beta
@@ -11,7 +10,9 @@
 You can access the R Studio server using the following link:
 
 <div style="text-align: center; margin: 20px 0;">
-  <a href="http://134.209.84.93:8787/" target="_blank" style="padding: 10px 20px; background-color: #607D8B; color: white; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif; font-size: 16px;">Access R Studio Server</a>
+  <a href="http://134.209.84.93:8787/" target="_blank" style="padding: 10px 20px; background-color: #607D8B; color: white; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif; font-size: 16px;">
+    <i class="fas fa-server"></i> Access R Studio Server
+  </a>
 </div>
 
 <div style="text-align: center; margin-bottom: 20px;">
@@ -62,17 +63,17 @@ If you'd like to request the ID and password for the R Studio server, please fil
   </div>
 </form>
 
-
+---
 
 ## III. Documentation
 
-### R Studio Server Guide
+### R Studio Server Guide <i class="fas fa-book"></i>
 
 Welcome to the R Studio Server! This document explains how to access and use the R Studio server for your data analysis and statistical needs.
 
 ---
 
-### 1. Accessing the Server
+### 1. Accessing the Server <i class="fas fa-laptop-code"></i>
 
 To access the R Studio server, follow these steps:
 
@@ -84,7 +85,7 @@ To access the R Studio server, follow these steps:
 
 ---
 
-### 2. Login and Authentication
+### 2. Login and Authentication <i class="fas fa-key"></i>
 
 1. Enter your **username** and **password**.
 2. Click on **Sign In**.
@@ -94,7 +95,7 @@ To access the R Studio server, follow these steps:
 
 ---
 
-### 3. Navigating the Interface
+### 3. Navigating the Interface <i class="fas fa-project-diagram"></i>
 
 Once logged in, you'll see the R Studio interface split into four main panels:
 
@@ -105,7 +106,7 @@ Once logged in, you'll see the R Studio interface split into four main panels:
 3. **Environment/History Panel** (top-right): View data objects, variables, and command history.
 4. **Files/Plots/Packages/Help Panel** (bottom-right): Manage files, view plots, manage packages, and access help resources.
 
-#### Writing and Running Code:
+#### Writing and Running Code
 
 - To run a line of code or a script:
   1. Write your R code in the **Source** panel.
@@ -114,7 +115,7 @@ Once logged in, you'll see the R Studio interface split into four main panels:
 
 ---
 
-### 4. Working with Projects
+### 4. Working with Projects <i class="fas fa-folder-open"></i>
 
 Creating and managing projects in R Studio helps organize your work:
 
@@ -126,7 +127,7 @@ Creating and managing projects in R Studio helps organize your work:
 
 ---
 
-### 5. Installing Packages
+### 5. Installing Packages <i class="fas fa-box"></i>
 
 You can install R packages to extend the functionality of R Studio:
 
@@ -142,7 +143,7 @@ You can install R packages to extend the functionality of R Studio:
 
 ---
 
-### 6. Uploading and Managing Data
+### 6. Uploading and Managing Data <i class="fas fa-upload"></i>
 
 You can upload datasets directly to the R Studio server:
 
@@ -157,7 +158,7 @@ data <- read.csv("your_file.csv")
 
 ---
 
-### 7. Saving and Exporting Results
+### 7. Saving and Exporting Results <i class="fas fa-save"></i>
 
 - To save your R script, go to `File` -> `Save As`, and choose the directory.
 - To export a plot:
@@ -166,7 +167,7 @@ data <- read.csv("your_file.csv")
 
 ---
 
-### 8. Best Practices
+### 8. Best Practices <i class="fas fa-check-circle"></i>
 
 - **Project organization:** Always create a new project for each analysis to avoid clutter.
 - **Save your work frequently:** Make sure to save scripts and data regularly.
@@ -174,21 +175,18 @@ data <- read.csv("your_file.csv")
 
 ---
 
-### 9. Troubleshooting
+### 9. Troubleshooting <i class="fas fa-bug"></i>
 
-#### Common Issues:
+#### Common Issues
 
-- **Unable to connect to the server:** Ensure that the server is online by visiting the [server status page](http://134.209.84.93/).
 - **Package not installing:** Check the console for error messages. It may be due to missing dependencies.
 - **Slow performance:** Large datasets or heavy computations may slow down the server. Try to simplify your code or break tasks into smaller parts.
 
-If you're still having trouble, see the [support section](#support-and-contact).
-
 ---
 
-### 10. Support and Contact
+### 10. Support and Contact <i class="fas fa-life-ring"></i>
 
-If you need access to the server or are encountering issues, feel free to contact us.
+If you are encountering issues, feel free to contact us.
 
 - **Email:** [emmanuelsleiman@gmail.com](mailto:emmanuelsleiman@gmail.com)
 - **LinkedIn:** [Emmanuel Sleiman](https://fr.linkedin.com/in/emmanuel-sleiman-0354272b4)
