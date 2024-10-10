@@ -6,7 +6,7 @@ hide:
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 <h1 style="text-align: center;">Hi 👋, I'm Emmanuel Sleiman</h1>
-<h3 style="text-align: center;">Medical student specializing in hematology, with a passion for AI applications in healthcare.</h3>
+<h3 style="text-align: center;">Medical student specializing in hematology, with a passion for mathematics and AI applications in healthcare.</h3>
 
 ---
 
